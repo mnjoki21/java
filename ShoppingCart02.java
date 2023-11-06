@@ -2,7 +2,7 @@ public class ShoppingCart02 {
     public static void main(String[] args) {
         String custName = "Alex";
         String itemDesc = "Shirts";
-        String message = custName+" wants to purchase a "+itemDesc;
+        String message = custName+" wants to purchase a "+itemDesc  ;
         
         // Declare and initialize numeric fields: price, tax, quantity.   
         double price = 100.00;
@@ -15,7 +15,7 @@ public class ShoppingCart02 {
         
         // Modify message to include quantity 
 
-        message = custName+ " wants to purchse " + quantity +  " " + itemDesc + " the total price is : " +totalprice;
+        message = custName+ " wants to purchse " + quantity +  " " + itemDesc + " \n  The total price is : " + totalprice;
         
         System.out.println(message);
         
